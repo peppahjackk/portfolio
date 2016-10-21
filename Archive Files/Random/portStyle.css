@@ -1,0 +1,133 @@
+body {
+  background-image:url("images/bg2.jpg");
+  /*padding-top: 50px;*/
+}
+
+.base {
+  max-width: 1000px;
+  margin: 0px auto;
+  padding: 50px;
+}
+
+.headshot{
+	position:relative;
+	float:left;
+}
+
+.title {
+	margin-left:20px;
+	float: left;
+	width: 550px;
+}
+
+.title p {
+	color: black;
+}
+
+.vid
+{
+	position:relative;
+	float:right;
+	clear: right;
+	margin-top: 10px;
+}
+
+.web
+{
+	position:relative;
+	float:right;
+	
+}
+
+.navbar {
+	background-image:url("images/bg.png")
+}
+
+.content {
+	text-align:center;
+	display:block;
+}
+li, a, p{
+	float: right;
+	clear: right;
+	/*margin: 15px;*/
+	text-decoration: none;
+	color: #FAFAFA;
+	font-family: bodonixt;
+	font-size: 18px;
+}
+
+.navbar-brand {
+	font-size:24px;
+}
+
+h1 {
+	font-family: steiner, sans-serif;
+	font-size: 48px;
+	margin-bottom: -20px;
+	clear: left;
+}
+
+h3 {
+	
+	font-family: steiner, sans-serif;
+	clear:left;
+}
+
+
+
+.navBtn p {
+    text-align: center;
+	font-size:32px;
+	padding: 5px 15px;
+	font-color: white;
+	
+}
+
+.footer p{
+    text-align: center;
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media screen and (max-width: 767px) {
+	img {
+		width: 50%;
+		height: 50%;
+	}
+}
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    body {
+        
+        }
+        
+    h1, h2, h3 {
+        text-align: left;
+    }
+    .image {
+        padding-top: 30px;
+        float: center;
+        }
+
+    .content {
+        padding-top: 35px;
+        margin-left: 230px;
+        }        
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    body {
+        
+        }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+        body {
+        
+        }
+ }
+

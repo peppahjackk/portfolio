@@ -1,0 +1,283 @@
+/*General Styling------------------------- */
+body {
+  background-image:url("images/bg2.jpg");
+  /*padding-top: 50px;*/
+}
+
+.base {
+  max-width: 1100px;
+  margin: 0px auto;
+  padding: 50px;
+}
+
+a, p{
+	/*margin: 15px;*/
+	text-decoration: none;
+	color: #FAFAFA;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+h1 {
+	font-family: steiner, sans-serif;
+	font-size: 48px;
+	margin-bottom: -20px;
+	clear: left;
+}
+
+/* NAVIGATION BAR------------------------------ */
+.navbar {
+	background-color:#072C82;
+}
+
+.nav navbar-nav li {
+	text-decoration: none;
+	color: #FAFAFA;
+	font-family: linlib;
+	font-size: 18px;
+}
+
+.navbar-brand {
+	font-size:24px;
+	margin-top: -7px;
+}
+
+.navBtn p {
+    text-align: center;
+	font-size:32px;
+	padding: 5px 15px;
+	font-color: white;
+	
+}
+
+/*END NAVIGATION BAR------------------------------ */
+
+.content {
+	text-align:center;
+	display:block;
+}
+
+.title {
+	max-width:900px;
+	position:relative;
+	margin: auto;
+	
+	float:center;
+}
+
+.title h2 {
+	font-size: 72px;
+	font-family: bodonixt;
+}
+
+.title p {
+	color: black;
+}
+
+.headshot{
+	float:right;
+	margin-left: 15px;
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+
+.logomain {
+	float:left;
+	margin-left: 5px;
+}
+
+.sec2 {
+	max-width:900px;
+	position:relative;
+	margin: auto;
+	float:center;
+}
+
+/* SKILLS SECTION------------------------------ */
+.skilled {
+	
+}
+
+.s1 {
+	float: left;
+}
+
+.s2 {
+	margin-top:15px;
+	float:left;
+}
+
+.skilled ul {
+	list-style-type: none;
+}
+
+.skilled h3 {
+	font-size: 48px;
+	font-family: bodonixt;
+}
+
+.skilled h4 {
+	font-size: 36px;
+	font-family: bodonixt;
+}
+
+.skilled li {
+	width: 400px;
+	height: 25px;
+	text-align: center;
+	margin-top: 5px;
+	margin-left:5px;
+	font-family: bebas;
+	font-size: 18px;
+	float:left;
+}
+
+.e7d {
+	color: #ffffff;
+	background-color: #cc0000;
+}
+
+.apr {
+	background-color: #442a4f;
+	color: #d76cf6;
+}
+
+.fcp {
+	background-color: #696969;
+	color: #77cdd1;
+}
+
+.rsx {
+	color: #cb0000;
+	background-color: #111111;
+}
+
+.amc {
+	background-color: #6b2679;
+	color: white;
+}
+
+.aph {
+	background-color: #2c2666;
+	color: #8dc6fd;
+}
+
+.htm {
+	background-color: #30422c;
+	color: #9ae914;
+}
+
+.pan {
+	background-color: #2b5daa;
+	color: #e9ebec;
+}
+
+.tri {
+	background-color: #000000;
+	color: #00a7e3;
+}
+
+.au {
+	color: #39f3de;
+	background-color: #32435f;
+}
+
+.ae {
+	color: #c58dfc;
+	background-color: #302a58;
+}
+
+.ai {
+	background-color: #483922;
+	color: #d78e12;
+}
+
+/*END SKILLS SECTION------------------------------ */
+
+
+.vid
+{
+	position:relative;
+	float:right;
+	clear: right;
+	margin-top: 10px;
+}
+
+.web
+{
+	position:relative;
+	float:right;
+	
+}
+
+.footer p{
+	clear:both;
+	font-family: linlib;
+	color:#282828;
+    text-align: center;
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media screen and (max-width: 767px) {
+	.logomain {
+		width: 50%;
+		height: 50%;
+	}
+	
+	.title {
+		width:90%;
+	}
+	
+	.bar {
+		display:none;
+	}
+}
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    body {
+        
+        }
+		
+    .title {
+		width:90%;
+	}
+	   
+    h1, h2, h3 {
+        text-align: left;
+    }
+	
+    .image {
+        padding-top: 30px;
+        float: center;
+        }
+
+    .content {
+        padding-top: 35px;
+        margin-left: 230px;
+        } 
+		
+	
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    body {
+        
+        }
+		
+		.title {
+		width:90%;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+        body {
+        
+        }
+ 	
+ }
+ 
+

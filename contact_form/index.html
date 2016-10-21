@@ -1,0 +1,47 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Contact Form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta charset="utf-8">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+</head>
+<body>
+<div class="row">
+	<div class="col-sm-6 col-sm-offset-3">
+		<form role="form" id="contactForm">
+			<div class="row">
+				<div class="form-group col-sm-12">
+					<label for="name" class="h4">Name&#42;</label>
+					<input type="text" data-error="Please enter a name" class="form-control" id="name" placeholder="Enter name" required>
+					<div class="help-block with-errors"></div>
+				</div>
+				<div class="form-group col-sm-6">
+					<label for="email" class="h4">Email&#42;</label>
+					<input type="email" class="form-control" id="email" placeholder="Enter email" required data-error="Please enter a valid email">
+					<div class="help-block with-errors"></div>
+				</div>
+				<div class="form-group col-sm-6">
+					<label for="phone" class="h4">Phone Number</label>
+					<input type="phone" class="form-control" id="phone" placeholder="Enter phone number" data-error="Please enter a valid phone number">
+					<div class="help-block with-errors"></div>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="inquiry" class="h4">Inquiry&#42;</label>
+				<textarea id="inquiry" class="form-control" rows="5" placeholder="Enter your inquiry" required></textarea>
+				<div class="help-block with-errors"></div>
+			</div>
+			<button type="submit" id="form-submit" class="btn btn-success btn-lg col-xs-6 col-xs-offset-3">Submit</button>
+			<div id="msgSubmit" class="h3 text-center hidden"></div>
+			<div class="clearfix"></div>
+		</form>
+	</div>
+</div>
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="js/validator.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+</html>

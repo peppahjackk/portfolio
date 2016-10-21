@@ -1,0 +1,533 @@
+/*General Styling------------------------- */
+body {
+  background:#d2f6f5;
+  /*padding-top: 50px;*/
+}
+
+.base {
+  max-width: 1300px;
+  margin: 0px auto;
+  padding: 40px;
+}
+ 
+hr {
+   display: block;
+   position: relative;
+   padding: 0;
+   margin: 8px auto;
+   height: 0;
+   width: 100%;
+   max-height: 0;
+   font-size: 1px;
+   line-height: 0;
+   clear: both;
+   border: none;
+   border-top: 1px solid #aaaaaa;
+   border-bottom: 1px solid #ffffff;
+}
+
+a, p{
+	/*margin: 15px;*/
+	text-decoration: none;
+	color: #FAFAFA;
+	font-family: linlib, sans-serif;
+	font-size: 16px;
+}
+
+h1 {
+	font-family: steiner, sans-serif;
+	font-size: 48px;
+	margin-bottom: -20px;
+	clear: left;
+}
+
+/* NAVIGATION BAR------------------------------ */
+.navbar {
+	background:none;
+	height: 55px;
+}
+.navbar-brand{
+	margin-top: -15px;
+}
+.navbar-toggle{
+	background-color: #18565F;
+	border: none;
+	padding: 13px 13px;
+	margin:9px 0 0 0;
+	box-shadow: none;
+}
+.navbar-default .navbar-collapse {
+	background: rgba(255,255,255,0.05);
+	border-radius: 2px;
+	
+}
+
+.navbar-default .navbar-nav > li > a {
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #1C2D35;
+	padding: 11px 0;
+	text-align: center; 
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color:#fff;
+	background-color:#18565f;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	color: #fff;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+	background-color:#031218;
+}
+
+.navBtn p {
+    text-align: center;
+	font-size:32px;
+	padding: 5px 15px;
+	font-color: white;
+	
+}
+
+.jumbotron {
+	padding-top: 15px;
+	margin-bottom: 0px;
+	background: none;
+}
+
+/*END NAVIGATION BAR------------------------------ */
+
+.content {
+	text-align:center;
+	display:block;
+}
+
+.title {
+	float:center;
+	padding:10px;
+}
+
+.title h2 {
+	font-size: 72px;
+	margin-bottom: -15px;
+	font-family: bodonixt;
+}
+.title iframe {
+	float:center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.title h3 {
+	font-family:steiner;
+	font-size:32px;
+}
+
+.headshot{
+	float:center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.logomain {
+	float:left;
+	margin-left: 5px;
+}
+
+/* REEL & MORE SECTION--------------------------- */
+.sec2 {
+	max-width:900px;
+	position:relative;
+	margin: auto;
+	float:center;
+}
+.sec2 img{
+	margin-top: 15px;
+	
+}
+
+.sec2 p {
+	margin-top: 15px;
+	color: black;
+}
+.sec2 a {
+	color: #fff;
+}
+
+.btn.btn-primary{
+	border-radius: 2px;
+	border: 1px solid #fff;
+	background: rgba(97,10,10, .8);
+	font-size: 16px;
+	color: #fff;
+	padding: 10px 20px;
+}
+
+.btn-primary:hover {
+	background: rgba(97,10,10, 1);
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+.more ul{
+	list-style-type:none;
+	float:right;
+	clear:right;
+	margin-right: 35px;
+	margin-top: 10px;
+	padding-top:10px;
+}
+
+.more {
+	background-color: #282828;
+}
+.more h3  {
+	float:right;
+	font-family: steiner;
+	
+}
+
+.more li a {
+	margin: 0px 35px 10px 0px;
+	font-family: bebas;
+	font-size: 20px;
+	color:#fff;
+	text-decoration: none;
+}
+/* END OF REEL & MORE SECTION------------------- */
+
+/* SKILLS SECTION------------------------------ */
+.sec3 {
+	max-width:1000px;
+	position:relative;
+	margin: auto;
+	float:center;
+}
+
+.skilled {
+	margin-left: 55px;
+}
+
+.s1 {
+	float: left;
+}
+
+.s2 {
+	margin-top:15px;
+	float:left;
+	margin-bottom: 20px;
+}
+
+.skilled ul {
+	list-style-type: none;
+}
+
+.skilled h3 {
+	font-size: 48px;
+	text-align: center;
+	font-family: bodonixt;
+}
+
+.skilled h4 {
+	font-size: 36px;
+	text-align:center;
+	font-family: bodonixt;
+}
+
+.skilled li {
+	width: 400px;
+	height: 30px;
+	text-align: center;
+	margin-top: 5px;
+	margin-left:5px;
+	font-family: bebas;
+	font-size: 20px;
+	float:left;
+}
+
+.e7d {
+	color: #ffffff;
+	background-color: #cc0000;
+}
+
+.apr {
+	background-color: #442a4f;
+	color: #d76cf6;
+}
+
+.fcp {
+	background-color: #696969;
+	color: #77cdd1;
+}
+
+.rsx {
+	color: #cb0000;
+	background-color: #111111;
+}
+
+.amc {
+	background-color: #6b2679;
+	color: white;
+}
+
+.aph {
+	background-color: #2c2666;
+	color: #8dc6fd;
+}
+
+.htm {
+	background-color: #30422c;
+	color: #9ae914;
+}
+
+.pan {
+	background-color: #2b5daa;
+	color: #e9ebec;
+}
+
+.tri {
+	background-color: #000000;
+	color: #00a7e3;
+}
+
+.au {
+	color: #39f3de;
+	background-color: #32435f;
+}
+
+.ae {
+	color: #c58dfc;
+	background-color: #302a58;
+}
+
+.ai {
+	background-color: #483922;
+	color: #d78e12;
+}
+
+/*END SKILLS SECTION------------------------------ */
+
+/*VIDEO PAGE----------------------------------------*/
+.container-fluid {
+	margin: 55px auto;
+	max-width: 1100px;
+}
+
+.container-fluid h2 {
+	font-family: linlib;
+	font-size: 42px;
+	text-align:center;
+	margin-bottom: 10px;
+}
+
+.container-playlist {
+	max-width: 640px;
+	margin: 30px auto;
+	margin-bottom: 0px;
+}
+
+.row {
+	margin: 20px auto;
+}
+
+.row video {
+	margin: 15px 5px 15px 10px;
+	float:right;
+}
+
+.row h4 {
+	margin-top: 40px;
+	font-family:bebas;
+	font-size: 32px;
+	text-align:center;
+}
+.row p {
+	font-family:linlib;
+	color:black;
+	text-align:center;
+}
+
+.row a {
+	color: #282828;
+	text-decoration: underline;
+}
+
+.row img {
+	
+	margin-bottom: 40px;
+}
+
+/*END VIDEO PAGE-----------------------------------*/
+
+.footer {
+	clear:both;
+	padding-top: 15px;
+}
+.footer p {
+	font-family: linlib;
+	color:#282828;
+	margin-bottom: -15px;
+    text-align: center;
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media screen and (max-width: 767px) {
+	.logomain {
+		width: 50%;
+		height: 50%;
+	}
+	
+	
+	
+	.title h2 {
+		font-size: 52px;
+	}
+	
+	.title h3 {
+		font-size:24px;
+	}
+	
+	.headshot {
+		width:40%;
+		height:40%;
+		min-width:180px;
+		min-height: 220px;
+	}
+	
+	.sec2 iframe {
+		display:none;
+	}
+	.sec2 img{
+	margin-top: 5px;
+}
+	
+	hr {
+		display: none;
+	}
+	
+	.skilled {
+		width:95%;
+		margin: auto;
+	}
+	.skilled li {
+		width:150px;
+		font-size:18px;
+	}
+	
+	.skilled h3 {
+		
+		font-size:40px;
+	}
+	
+	.skilled h4 {
+		
+		font-size:32px;
+	}
+	.more ul {
+		margin-left: 15px;
+		float:left;
+	}
+	.more li a, .more li p {
+	font-size: 24px;
+	}
+	.container-playlist {
+		display: none;
+	}
+	.row img {
+		margin-bottom:-20px;
+		margin-top: 15px;
+		
+	}
+	
+	.row p {
+		margin-bottom: 30px;
+	}
+}
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px to 991 px) */
+@media screen and (min-width: 768px) and (max-width:991px) {
+    
+	.title iframe {
+		width: 640px;
+		height: 360px;
+	}
+	   
+    h1, h2, h3 {
+        text-align: left;
+    }
+	
+    .image {
+        padding-top: 30px;
+        float: center;
+        }
+
+    .content {
+        padding-top: 35px;
+        margin-left: 230px;
+        } 
+	.sec2 iframe {
+		margin-left: 60px;
+	}	
+	
+	.more ul {
+		margin-left: 10px;
+	}
+	 .more ul li {
+		display:inline;
+	}	
+	.skilled {
+		width:95%;
+		margin-left:15px;
+	}
+	.skilled li {
+		width:250px;
+		font-size:20px;
+	}
+	
+	.row img {
+		margin-bottom:-20px;
+		margin-top: 15px;
+		
+	}
+	
+	.row h4 {
+		text-align:center;
+	}
+	.row p {
+		text-align:center;
+		margin-bottom: 30px;
+	}
+	.sec2 img{
+	margin-top: 5px;
+}
+ }
+
+/* Medium devices (desktops, 992px to 1199px) */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.skilled {
+			margin-left:25px;
+		}		
+	.skilled li {
+		width:350px;
+		font-size:18px;
+	}
+	.sec2 img{
+	margin-top: 25px;
+	}
+	
+	.title iframe {
+		width: 640px;
+		height: 360px;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+        .title iframe {
+			width:960px;
+			height:540px;
+		}
+ 	
+ }
+ 
+

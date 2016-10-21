@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Video Work</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="portStyle.css" rel="stylesheet">
+    <link href="fonts/fonts.css" rel="stylesheet">
+     <link rel="shortcut icon"
+ href="images/tmLogoSmall.ico" />
+    <link href='http://fonts.googleapis.com/css?family=Rajdhani:400,600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Serif+Pro' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="jwplayer/jwplayer.js"></script>
+	<script type="text/javascript">jwplayer.key="9MknfmqyAKxSW+pXvye+zHfIRFt/fxB5itRS5Q==";</script>
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+	<div class="navbar navbar-default">
+              
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a href="index.html"><div class="navbar-brand"><img src="images/tmLogo.png" width="104" height="53" /></div></a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="video.html">Video</a></li>
+                    <li><a href="web.html">Web</a></li>
+                  </ul>
+                </div><!--/.nav-collapse -->
+              
+            </div>
+    
+	<div class="container-fluid">
+        <div class="videos">
+            <h2>Video Work</h2>
+            <div class="container-playlist">
+            	<div id="myElement">Loading the player...</div>
+                    <script type="text/javascript">
+                        jwplayer("myElement").setup({
+                            playlist: [{
+                                image: "https://i.ytimg.com/vi/UxNcNQFWgOY/mqdefault.jpg",
+                                file: "https://www.youtube.com/watch?feature=player_detailpage&v=UxNcNQFWgOY",
+                                title: "The Art of Illusion [FILM]",
+                                description: "Assistant Editor, Associate Producer, Camera/Audio Operator"
+                            },{
+                                image: "https://i.ytimg.com/vi/mw8X8Oo6vk8/mqdefault.jpg",
+                                file: "https://www.youtube.com/watch?feature=player_detailpage&v=mw8X8Oo6vk8",
+                                title: "Spare Key [FILM]",
+                                description: "Director of Photography, Camera Operator (RED Scarlet X)"
+                        
+                            },{
+                                image: "https://i.ytimg.com/vi/M7upif5ZiGQ/mqdefault.jpg",
+                                file: "https://www.youtube.com/watch?feature=player_detailpage&v=M7upif5ZiGQ",
+                                title: "#Sidetracked [PILOT]",
+                                description: "Director, Producer, Editor, Writer, Actor"
+                            },{
+                                image: "https://i.ytimg.com/vi/AkIRmY9Mg8Y/mqdefault.jpg",
+                                file: "https://www.youtube.com/watch?feature=player_detailpage&v=AkIRmY9Mg8Y",
+                                title: "Skeletons [FILM]",
+                                description: "Editor, Grip, Location Manager"
+                            },{
+                                image: "https://i.ytimg.com/vi/p_KeLd9wf38/mqdefault.jpg",
+                                file: "https://www.youtube.com/watch?feature=player_detailpage&v=p_KeLd9wf38",
+                                title: "No Such Noise [TELETHON CLIP]",
+                                description: "Jib Operator"
+                            }],
+                            height: 680,
+                            listbar: {
+                                position: 'bottom',
+                                size: 320
+                            },
+                            width: 640
+                        });
+                        </script>
+            <!--<div class="row">
+                <div class="col-xs-12 col-sm-6 "><video width="320" height="240" controls>
+                    <source src="video/artFC.mp4" type="video/mp4">
+                    <source src="video/artFC.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                    </video><h4>Art of Illusion</h4>
+                    <p>Assistant Editor, Camera Operator, Audio, Associate Producer</p></div>
+                    
+                <div class="col-xs-12 col-sm-6 "><video width="320" height="240" controls>
+                    <source src="video/skFC.mp4" type="video/mp4">
+                    <source src="video/skFC.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                    </video><h4>Spare Key</h4>
+                    <p>Director of Photography with RED Scarlet X</p></div> 
+                    
+                <div class="col-xs-12 col-sm-6  "><video width="320" height="240" controls>
+                    <source src="video/stFC.mp4" type="video/mp4">
+                    <source src="video/stFC.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                    </video><h4>#Sidetracked</h4>
+                    <p>Director, Executive Producer, Editor, Writer, Actor</p></div>
+                    
+                <div class="col-xs-12 col-sm-6 "><video width="320" height="240" controls>
+                    <source src="video/skelFC.mp4" type="video/mp4">
+                    <source src="video/skelFC.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                    </video><h4>Skeletons</h4>
+                    <p>Grip, Camera Assistant, Location Manager</p></div>
+                    
+                <div class="col-xs-12 col-sm-6 "><video width="320" height="240" controls>
+                    <source src="video/telNSN.mp4" type="video/mp4">
+                    <source src="video/telNSN.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                    </video><h4>RTN 7th Annual Telethon: No Such Noise</h4>
+                    <p>Jib Operator</p></div>     -->
+            </div>
+            <div class="mobile-PL visible-xs text-center">
+                <div class="vidlist">
+                    <div class="col-sm-12 col-md-6 "><a href="https://www.youtube.com/watch?feature=player_detailpage&v=UxNcNQFWgOY"><img src="https://i.ytimg.com/vi/UxNcNQFWgOY/mqdefault.jpg"  /></a></div>   
+                    <div class="col-sm-12 col-md-6 "><a href="https://www.youtube.com/watch?feature=player_detailpage&v=UxNcNQFWgOY"><h4>The Art of Illusion [DOCUMENTARY]</h4></a>
+                        <p>Assistant Editor, Associate Producer, Camera/Audio Operator</p></div> 
+                        
+                     <div class="clearfix visible-xs-block"></div>   
+                     
+                    <div class="col-sm-12 col-md-6 "><a href="https://www.youtube.com/watch?feature=player_detailpage&v=mw8X8Oo6vk8"><img src="https://i.ytimg.com/vi/mw8X8Oo6vk8/mqdefault.jpg" width="320" height="180" /></a></div>   
+                    <div class="col-sm-12 col-md-6 "><a href="https://www.youtube.com/watch?feature=player_detailpage&v=mw8X8Oo6vk8"><h4>Spare Key [FILM]</h4></a>
+                        <p>Director of Photography, Camera Operator (RED Scarlet X)</p></div> 
+                        
+                    <div class="col-sm-12 col-md-6 "><a href="https://www.youtube.com/watch?feature=player_detailpage&v=M7upif5ZiGQ"><img src="https://i.ytimg.com/vi/M7upif5ZiGQ/mqdefault.jpg" width="320" height="180" /></a></div>   
+                    <div class="col-sm-12 col-md-6 "><a href="https://www.youtube.com/watch?feature=player_detailpage&v=M7upif5ZiGQ"><h4>#Sidetracked [PILOT]</h4></a>
+                        <p>Director, Producer, Editor, Writer, Actor</p></div>
+                        
+                    <div class="col-sm-12 col-md-6 "><a href="https://www.youtube.com/watch?feature=player_detailpage&v=AkIRmY9Mg8Y"><img src="https://i.ytimg.com/vi/AkIRmY9Mg8Y/mqdefault.jpg" width="320" height="180" /></a></div>   
+                    <div class="col-sm-12 col-md-6 "><a href="https://www.youtube.com/watch?feature=player_detailpage&v=AkIRmY9Mg8Y"><h4>Skeletons [FILM]</h4></a>
+                        <p>Editor, Grip, Location Manager</p></div>
+                        
+                    <div class="col-sm-12 col-md-6 "><a href="https://www.youtube.com/watch?feature=player_detailpage&v=p_KeLd9wf38"><img src="https://i.ytimg.com/vi/p_KeLd9wf38/mqdefault.jpg" width="320" height="180" /></a></div>   
+                    <div class="col-sm-12 col-md-6 "><a href="https://www.youtube.com/watch?feature=player_detailpage&v=p_KeLd9wf38"><h4>No Such Noise Performance [TELETHON CLIP]</h4></a>
+                        <p>Jib Operator</p></div>           
+               </div>
+         </div>     
+          <!-- Start Section 4 - Contact & Footer -->         
+           <div class="section4">
+               <div class="row">
+                      <div class="col-sm-6 col-sm-offset-3 col-xs-12 text-center"><h4>Need a video or website created? <span>Contact Me</span></h4></div>
+                        <div class="row">
+                          <div class="col-sm-6 col-sm-offset-3">
+                            <form role="form" id="contactForm">
+                              <div class="row">
+                                <div class="form-group col-sm-12">
+                                  <label for="name" class="h4">Name&#42;</label>
+                                  <input type="text" data-error="Please enter a name" class="form-control" id="name" placeholder="Enter name" required>
+                                  <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group col-sm-6">
+                                  <label for="email" class="h4">Email&#42;</label>
+                                  <input type="email" class="form-control" id="email" placeholder="Enter email" required data-error="Please enter a valid email">
+                                  <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group col-sm-6">
+                                  <label for="phone" class="h4">Phone Number</label>
+                                  <input type="phone" class="form-control" id="phone" placeholder="Enter phone number" data-error="Please enter a valid phone number">
+                                  <div class="help-block with-errors"></div>
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <label for="inquiry" class="h4">Inquiry&#42;</label>
+                                <textarea id="inquiry" class="form-control" rows="5" placeholder="Enter your inquiry" required></textarea>
+                                <div class="help-block with-errors"></div>
+                              </div>
+                              <button type="submit" id="form-submit" class="btn btn-primary btn-lg col-xs-6 col-xs-offset-3">Submit</button>
+                              <div id="msgSubmit" class="h3 text-center"></div>
+                              <div class="clearfix"></div>
+                            </form>
+                          </div>
+                        </div>
+                          <!-- Old Contact Format
+                            <div class="collapse-group"> <a href="#" class="btn btn-primary btn-lg">Contact Ted.</a>
+                                <form class="collapse" name="contactform" method="post" action="http://www.tedrmoke.com/send_form_email.php">
+                                    <div>
+                                       <label>First Name *
+                                           <input class="feedback-input" type="text" name="first_name" placeholder="First Name *">
+                                       </label>
+                                                        
+                                       <label>Last Name *
+                                           <input class="feedback-input" type="text" name="last_name" placeholder="Last Name *">
+                                       </label>
+                                                     
+                                       <label>Email Address *
+                                           <input class="feedback-input" type="text" name="email" placeholder="Email *">
+                                       </label>
+                                                     
+                                       <label>Telephone Number
+                                           <input class="feedback-input" type="text" name="telephone" placeholder="Phone">
+                                       </label>
+                                                     
+                                       <label>Comments *
+                                           <textarea class="feedback-input" name="comments" maxlength="1000" placeholder="Comments *"></textarea>
+                                       </label>
+                                                     
+                                       <input class="btn-primary" type="submit" value="Submit">
+                                   </div>
+                                </form>
+                            </div> collapse-group --> 
+                        
+                </div>
+
+                <div class="footer">
+                    <p>Ted Moke ©2016 -- TedRmoke@gmail.com</p>
+                </div>
+          </div>
+    <!-- End Section 4 -->
+</div>
+      <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="contact_form/js/validator.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+      
+      <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-38485713-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  
+    </div>    
+	
+</body>
+</html>

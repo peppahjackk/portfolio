@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Video Work</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="portStyle.css" rel="stylesheet">
+    <link href="fonts/fonts.css" rel="stylesheet">
+	<script type="text/javascript" src="jwplayer/jwplayer.js"></script>
+	<script type="text/javascript">jwplayer.key="9MknfmqyAKxSW+pXvye+zHfIRFt/fxB5itRS5Q==";</script>
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+	<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="navbar-brand"><img src="images/logo.png" width="45" height="36" /></div>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="video.html">Video</a></li>
+            <li><a href="web.html">Web</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+     </div>
+    </div>
+    
+	<div class="container-fluid">
+    	<h2>Video Work</h2>
+        <hr />
+        <div class="container-playlist">
+    	<div id="myElement">Loading the player...</div>
+            	<script type="text/javascript">
+					jwplayer("myElement").setup({
+						playlist: [{
+							image: "https://i.ytimg.com/vi/UxNcNQFWgOY/mqdefault.jpg",
+							file: "https://www.youtube.com/watch?feature=player_detailpage&v=UxNcNQFWgOY",
+							title: "The Art of Illusion [FILM]",
+							description: "Assistant Editor, Associate Producer, Camera/Audio Operator"
+						},{
+							image: "https://i.ytimg.com/vi/mw8X8Oo6vk8/mqdefault.jpg",
+							file: "https://www.youtube.com/watch?feature=player_detailpage&v=mw8X8Oo6vk8",
+							title: "Spare Key [FILM]",
+							description: "Director of Photography, Camera Operator (RED Scarlet X)"
+					
+						},{
+							image: "https://i.ytimg.com/vi/M7upif5ZiGQ/mqdefault.jpg",
+							file: "https://www.youtube.com/watch?feature=player_detailpage&v=M7upif5ZiGQ",
+							title: "#Sidetracked [PILOT]",
+							description: "Director, Producer, Editor, Writer, Actor"
+						},{
+							image: "https://i.ytimg.com/vi/AkIRmY9Mg8Y/mqdefault.jpg",
+							file: "https://www.youtube.com/watch?feature=player_detailpage&v=AkIRmY9Mg8Y",
+							title: "Skeletons [FILM]",
+							description: "Editor, Grip, Location Manager"
+						},{
+							image: "https://i.ytimg.com/vi/p_KeLd9wf38/mqdefault.jpg",
+							file: "https://www.youtube.com/watch?feature=player_detailpage&v=p_KeLd9wf38",
+							title: "No Such Noise [TELETHON CLIP]",
+							description: "Jib Operator"
+						}],
+						height: 680,
+						listbar: {
+							position: 'bottom',
+							size: 320
+						},
+						width: 640
+					});
+					</script>
+        <!--<div class="row">
+  			<div class="col-xs-12 col-sm-6 "><video width="320" height="240" controls>
+  				<source src="video/artFC.mp4" type="video/mp4">
+  				<source src="video/artFC.ogg" type="video/ogg">
+				Your browser does not support the video tag.
+				</video><h4>Art of Illusion</h4>
+                <p>Assistant Editor, Camera Operator, Audio, Associate Producer</p></div>
+                
+  			<div class="col-xs-12 col-sm-6 "><video width="320" height="240" controls>
+            	<source src="video/skFC.mp4" type="video/mp4">
+                <source src="video/skFC.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+                </video><h4>Spare Key</h4>
+                <p>Director of Photography with RED Scarlet X</p></div> 
+                
+  			<div class="col-xs-12 col-sm-6  "><video width="320" height="240" controls>
+  				<source src="video/stFC.mp4" type="video/mp4">
+  				<source src="video/stFC.ogg" type="video/ogg">
+				Your browser does not support the video tag.
+				</video><h4>#Sidetracked</h4>
+                <p>Director, Executive Producer, Editor, Writer, Actor</p></div>
+                
+            <div class="col-xs-12 col-sm-6 "><video width="320" height="240" controls>
+  				<source src="video/skelFC.mp4" type="video/mp4">
+  				<source src="video/skelFC.ogg" type="video/ogg">
+				Your browser does not support the video tag.
+				</video><h4>Skeletons</h4>
+                <p>Grip, Camera Assistant, Location Manager</p></div>
+                
+            <div class="col-xs-12 col-sm-6 "><video width="320" height="240" controls>
+  				<source src="video/telNSN.mp4" type="video/mp4">
+  				<source src="video/telNSN.ogg" type="video/ogg">
+				Your browser does not support the video tag.
+				</video><h4>RTN 7th Annual Telethon: No Such Noise</h4>
+                <p>Jib Operator</p></div>     -->
+		</div>
+        <div class="mobile-PL visible-xs text-center">
+        	<div class="row">
+  			<div class="col-sm-12 col-md-6 "><img src="https://i.ytimg.com/vi/UxNcNQFWgOY/mqdefault.jpg" width="320" height="180" /></div>   
+  			<div class="col-sm-12 col-md-6 "><a href="https://www.youtube.com/watch?feature=player_detailpage&v=UxNcNQFWgOY"><h4>The Art of Illusion [DOCUMENTARY]</h4></a>
+                <p>Assistant Editor, Associate Producer, Camera/Audio Operator</p></div> 
+                
+             <div class="clearfix visible-xs-block"></div>   
+             
+  			<div class="col-sm-12 col-md-6 "><img src="https://i.ytimg.com/vi/mw8X8Oo6vk8/mqdefault.jpg" width="320" height="180" /></div>   
+  			<div class="col-sm-12 col-md-6 "><a href="https://www.youtube.com/watch?feature=player_detailpage&v=mw8X8Oo6vk8"><h4>Spare Key [FILM]</h4></a>
+                <p>Director of Photography, Camera Operator (RED Scarlet X)</p></div> 
+                
+            <div class="col-sm-12 col-md-6 "><img src="https://i.ytimg.com/vi/M7upif5ZiGQ/mqdefault.jpg" width="320" height="180" /></div>   
+  			<div class="col-sm-12 col-md-6 "><a href="https://www.youtube.com/watch?feature=player_detailpage&v=M7upif5ZiGQ"><h4>#Sidetracked [PILOT]</h4></a>
+                <p>Director, Producer, Editor, Writer, Actor</p></div>
+                
+            <div class="col-sm-12 col-md-6 "><img src="https://i.ytimg.com/vi/AkIRmY9Mg8Y/mqdefault.jpg" width="320" height="180" /></div>   
+  			<div class="col-sm-12 col-md-6 "><a href="https://www.youtube.com/watch?feature=player_detailpage&v=AkIRmY9Mg8Y"><h4>Skeletons [FILM]</h4></a>
+                <p>Editor, Grip, Location Manager</p></div>
+                
+            <div class="col-sm-12 col-md-6 "><img src="https://i.ytimg.com/vi/p_KeLd9wf38/mqdefault.jpg" width="320" height="180" /></div>   
+  			<div class="col-sm-12 col-md-6 "><a href="https://www.youtube.com/watch?feature=player_detailpage&v=p_KeLd9wf38"><h4>No Such Noise Performance [TELETHON CLIP]</h4></a>
+                <p>Jib Operator</p></div>           
+        </div>
+    </div>
+        
+     <div class="footer">
+	<hr />
+	<p>Ted Moke ©2014</p>
+</div>   
+      
+      <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+      
+      <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-38485713-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  
+    </div>    
+	
+</body>
+</html>

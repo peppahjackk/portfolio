@@ -1,0 +1,199 @@
+Old Blue #124857
+New Blue #1f566d
+New Blue hover 
+White #edede3
+Dk Gray #45413C
+Lt Gray #857B73
+Orange #e97d1a
+Hover Orange #ef9441
+Success green #5cb85c
+Error red #d9534f
+
+I currently work at MLB.com as a Supervisor in the logging and cutting department. In my tenure our department has been responible for the logging and cutting of events for the: MLB; NHL; and various other partners including The NFL on CBS, PGA, and WWE. My responsibilties have varied from cutting Real-Time Highlights for the web and social media, to testing encoders &amp; multiple game feeds for dozens of events, to running commercial pods for the 2016 NCAA Men's Final Four Championship. All this is done to ensure the highest quality on-demand and live event streams on a multitude of devices through our apps like MLB At Bat, NHL.TV, and more.
+
+<!--<a href="MokeResume_WebVideo.pdf" class="collapse-group btn btn-primary">Contact Him.</a>-->
+
+<!-- Skills visualized in an ul that doesnt seem to behave
+           <div class="sec3">     
+                 <div class="skilled">
+                	<div class="s1">
+                        <h3>Skilled with:</h3>
+                        <ul>
+                            <li class="rsx">Red Scarlet-X</li>
+                            <li class="apr">Adobe Premiere</li>
+                            <li class="fcp">Final Cut Pro</li>
+                            <li class="e7d">Canon EOS 7D</li>
+                            <li class="amc">Avid Media Composer</li>
+                            <li class="htm">HTML5/CSS3</li>
+                            <li class="aph">Adobe Photoshop</li>
+                            <li class="pan">Panasonic HPX Series</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="s2">
+                    	<h4>Working Knowledge:</h4>
+                  		  <ul>                    
+                    		<li class="ai">Adobe Illustrator</li>
+                    	    <li class="tri">Newtek Tricaster 460</li>
+                    		<li class="ae">Adobe After Effects</li>
+                    	    <li class="au">Adobe Audition</li>
+                  		  </ul>
+                    </div>
+                </div>     	
+			</div> -->
+
+
+/* Section 3 - SKILLS SECTION------------------------------ */
+.sec3 {
+	max-width:1000px;
+	position:relative;
+	margin: auto;
+	float:center;
+}
+
+.skilled {
+	margin-left: 55px;
+}
+
+.s1 {
+	float: left;
+}
+
+.s2 {
+	margin-top:15px;
+	float:left;
+	margin-bottom: 20px;
+}
+
+.skilled ul {
+	list-style-type: none;
+}
+
+.skilled h3 {
+	font-size: 48px;
+	text-align: center;
+	font-family: bodonixt;
+}
+
+.skilled h4 {
+	font-size: 36px;
+	text-align:center;
+	font-family: bodonixt;
+}
+
+.skilled li {
+	width: 400px;
+	height: 30px;
+	text-align: center;
+	margin-top: 5px;
+	margin-left:5px;
+	font-family: bebas;
+	font-size: 20px;
+	float:left;
+}
+
+.e7d {
+	color: #ffffff;
+	background-color: #cc0000;
+}
+
+.apr {
+	background-color: #442a4f;
+	color: #d76cf6;
+}
+
+.fcp {
+	background-color: #696969;
+	color: #77cdd1;
+}
+
+.rsx {
+	color: #cb0000;
+	background-color: #111111;
+}
+
+.amc {
+	background-color: #6b2679;
+	color: white;
+}
+
+.aph {
+	background-color: #2c2666;
+	color: #8dc6fd;
+}
+
+.htm {
+	background-color: #30422c;
+	color: #9ae914;
+}
+
+.pan {
+	background-color: #2b5daa;
+	color: #e9ebec;
+}
+
+.tri {
+	background-color: #000000;
+	color: #00a7e3;
+}
+
+.au {
+	color: #39f3de;
+	background-color: #32435f;
+}
+
+.ae {
+	color: #c58dfc;
+	background-color: #302a58;
+}
+
+.ai {
+	background-color: #483922;
+	color: #d78e12;
+}
+
+/*END Section 3------------------------------ */
+
+/* -----------Media Query Max width 767px------------*/
+
+.skilled {
+		width:95%;
+		margin: auto;
+	}
+	.skilled li {
+		width:150px;
+		font-size:18px;
+	}
+	
+	.skilled h3 {
+		
+		font-size:40px;
+	}
+	
+	.skilled h4 {
+		
+		font-size:32px;
+	}
+
+/* -----------Media Query Max width 768px - 991px------------*/
+
+.skilled {
+		width:95%;
+		margin-left:15px;
+	}
+	.skilled li {
+		width:250px;
+		font-size:20px;
+	}
+	
+
+/* -----------Media Query Max width 992px - 1199px------------*/
+
+.skilled {
+			margin-left:25px;
+		}		
+	.skilled li {
+		width:350px;
+		font-size:18px;
+	}
+	
