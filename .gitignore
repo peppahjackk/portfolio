@@ -9,3 +9,5 @@ temp/
 Archive\ Files/
 
 node_modules/
+
+oldDist/
