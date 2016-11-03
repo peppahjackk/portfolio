@@ -1,7 +1,7 @@
 /*General Styling------------------------- */
 
 body {
-    background-image: url("images/bg2.jpg");
+    background-image: url("../images/bg2.jpg");
     /*padding-top: 50px;*/
     overflow-x: hidden;
 }
@@ -57,7 +57,7 @@ h1 {
 /* ABOVE THE FOLD------------------------------ */
 
 .above-the-fold {
-    background-image: url("images/hudson1.jpg");
+    background-image: url("../images/hudson1.jpg");
     background-size: cover;
     background-position: bottom right;
 }
@@ -305,7 +305,7 @@ h1 {
 /* Section 4 - Contact ---------------------------- */
 
 .section4 {
-    background-image: url("images/bricks.png");
+    background-image: url("../images/bricks.png");
     background-size: cover;
 }
 
