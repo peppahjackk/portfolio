@@ -9,3 +9,9 @@ temp/
 Archive\ Files/
 
 node_modules/
+
+*.eot
+
+*.ttf
+
+*.woff
