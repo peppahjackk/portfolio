@@ -10,8 +10,16 @@ Archive\ Files/
 
 node_modules/
 
+<<<<<<< HEAD
 *.eot/
 
 *.ttf/
 
 *.woff/
+=======
+*.eot
+
+*.ttf
+
+*.woff
+>>>>>>> 5360e3ce4716e9ce4d12a486b22f30a9d8c88bfa
